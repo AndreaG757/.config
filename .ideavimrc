@@ -1,5 +1,6 @@
 "" Source your .vimrc
 "source ~/.vimrc
+" RELOAD CONFIG :source ~/.ideavimrc
 
 "" ================
 "" ---- PLUGIN -----
@@ -31,8 +32,9 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+set surround " eseguire i comandi: cs[{ - se sono con il cursore sulla quadrata trasformerò l'aperta e la chiusa in graffa
 
-"" Search Improvement
+" Search Improvement
 set hlsearch
 
 " Do incremental searching.
